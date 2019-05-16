@@ -39,8 +39,8 @@ CREATE TABLE usuario_tipo (
     FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario)
     );*/
 
-INSERT INTO usuario (nome, email, senha, usuario_tipo) VALUES ('Samuel','samuel.moraisbsb@gmail.com', md5('123'), 'U');
-INSERT INTO usuario (nome, email, senha, usuario_tipo) VALUES ('Barbara','barbaramariarm_@hotmail.com', md5('123'), 'A');
+INSERT INTO usuario (nome, email, senha, usuario_tipo) VALUES ('Samuel','samuel.moraisbsb@gmail.com', md5('123456'), 'U');
+INSERT INTO usuario (nome, email, senha, usuario_tipo) VALUES ('barbara','barbaramariarm_@hotmail.com', md5('123456'), 'A');
 
 INSERT INTO respostas (id_pergunta, respostas) VALUES ('12','Que nada vc e burro so acho kkkkk');
 
